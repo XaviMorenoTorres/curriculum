@@ -1,5 +1,6 @@
 html{
     font-size: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 *{
     box-sizing: border-box;
@@ -9,18 +10,14 @@ html{
     flex-direction: row;
     flex-wrap: wrap;
 }
-body{
-    margin: 0;
-}
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
 header {
     background-color: rgb(100, 100, 100);
     color: #000000;
-    padding: 15px;
+    padding: 25px;
     text-align: right;
 }
 nav ul {
@@ -45,7 +42,7 @@ nav a:hover {
     text-align: center;
     margin-top: 20px;
 }
-.column-33{
+.column-33-1{
     width: 33.33%;
     background-color: rgb(100, 100, 100);
     color: white;
@@ -54,15 +51,33 @@ nav a:hover {
     padding: 5px;
     text-align: center;
 }
+.column-33{
+    width: 33.33%;
+}
 .column-50{
     width: 50%;
 }
+.column-65{
+    width: 65%;
+}
+.column-35{
+    width: 35%;
+}
 h3{
-    font-size: 2rem;
+    font-size: 3.4rem;
 }
 p{
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+a{
+    font-size: 2rem;
 }
 .margen{
     margin-left: 50px;
+    margin-right: 10px;
+}
+.mapa{
+    width: 95%;
+    height: 300px;
+    margin-top: 60px;
 }
