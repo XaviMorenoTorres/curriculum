@@ -180,8 +180,9 @@ a li{
     }
     .emot{
         font-size: 0.82rem;
-        margin-left: 15px;
+        margin-left: 70px;
         margin-top: 0px;
+        text-align: center;
     }
     .navegacion{
         text-align: center;
@@ -189,6 +190,7 @@ a li{
     .emot1{
         font-size: 0.82rem;
         margin-top: 0px;
+        margin-left: 50px;
     }
     .navegacion1{
         margin-left: auto;
