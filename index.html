@@ -9,18 +9,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icon.png">
 </head>
 <header>
-    <nav>
-        <ul>
-          <li><a href="#">🌐</a></li>
-          <li><a href="#quiensoy">Quien soy</a></li>
-          <li><a href="#estudios">Estudios</a></li>
-          <li><a href="#idiomas">Idiomas</a></li>
-          <li><a href="#competencias">Competencias</a></li>
-          <li><a href="#experiencia">Experiencia</a></li>
-        </ul>
-      </nav>
+    <div class="row">
+        <div class="emot1">
+            <a href="view/en.html">🌐</a>
+        </div>
+        <div class="navegacion1">
+            <nav>
+                <ul>
+                    <li><a href="#quiensoy">🙎‍♂️Quien soy</a></li>
+                    <li><a href="#estudios">📚Estudios</a></li>
+                    <li><a href="#experiencia">🔨Experiencia</a></li>
+                    <li><a href="#idiomas">🚩Idiomas</a></li>
+                    <li><a href="#competencias">⛗Competencias</a></li>
+                    <li><a href="#software">💻Software</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </header>
 <body>
     <div class="row">
@@ -32,11 +40,11 @@
         <div class="column-50-1">
             <div class="margen">
                 <h4 id="quiensoy"><strong>Quien soy</strong></h4>
-                <p>Soy un estudiante de informática con ganas de aprender y mejorar mis conocimientos en el sector de la informática.Soy una persona puntual y comprometida. Me gusta hacer deporte y  mantenerme activo y en buena forma. Me gusta pasar tiempo con mis amigos, y disfruto de salir con ellos</p> 
+                <p>Soy un estudiante de informática con ganas de aprender y mejorar mis conocimientos en el sector de la informática.Soy una persona puntual y comprometida. Me gusta hacer deporte y  mantenerme activo y en buena forma. Me gusta pasar tiempo con mis amigos, y disfruto de salir con ellos.</p> 
             </div>
         </div>
         <div class="column-50-1">
-            <iframe width="80%" height="220px" src="https://www.youtube.com/embed/m6tMM0p68a0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/m6tMM0p68a0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
     <div class="row">
@@ -44,38 +52,48 @@
             <div class="margen">
                 <h4 id="estudios"><strong>Estudios</strong></h4>
                 <p><u>SMX2</u> 2022 - Present</p>
-                <p>Jesuïtes Bellvitge - Centre d'Estudis Joan XXII</p>
+                <p><em>Jesuïtes Bellvitge - Centre d'Estudis Joan XXIII</em></p>
                 <p><u>SMX1</u> 2021 - 2022</p>
-                <p>Jesuïtes Bellvitge - Centre d'Estudis Joan XXII</p>
+                <p><em>Jesuïtes Bellvitge - Centre d'Estudis Joan XXIII</em></p>
                 <p><u>ESO</u> 2016 - 2020</p>
-                <p>Institut Miquel Martí i Pol</p>
+                <p><em>Miquel Martí i Pol</em></p>
             </div>         
         </div>
         <div class="column-33">
             <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2195.6858027890858!2d2.109408991018955!3d41.35089996287348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498d64bd023fd%3A0x26089fc39cb352a3!2sJesu%C3%AFtes%20Bellvitge%20-%20Centre%20d&#39;Estudis%20Joan%20XXIII!5e0!3m2!1sca!2ses!4v1683641549639!5m2!1sca!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="column-33">
-            <h4 id="experiencia"><strong>Experiencia</strong></h4>
-            <p><u>Àrbitre de la federació Catalana de Futbol</u></p>
-            <p>2020 - Present</p> 
-            <p><u>Pràctiques de grau mitjà</u></p>
-            <p>01/06/2022 - 04/09/2022</p>
-            <p>Jesuitas de Sarriá San Ignasi</p>
+            <div class="margen exp">
+                <h4 id="experiencia"><strong>Experiencia</strong></h4>
+                <p><u>Àrbitre de la federació Catalana de Futbol</u></p>
+                <p>2020 - Present</p> 
+                <p><u>Pràctiques de grau mitjà</u></p>
+                <p>01/06/2022 - 04/09/2022</p>
+                <p><em>Jesuitas Sarriá, Sant Ignasi</em></p>
+            </div>
         </div>
     </div>
-        </div>
-        <div class="row">
-            <div class="column-33">
-                <div class="margen">
-                    <h4 id="idiomas"><strong>Idiomas</strong><h4>
-                    <img src="img/foto1.png" alt="" width="90%">
-                </div>
+    <div class="row">
+        <div class="column-33">
+            <div class="margen">
+                <h4 id="idiomas"><strong>Idiomas</strong><h4>
+                <img src="img/foto1.png" alt="" width="90%" class="foto">
             </div>
-            <div class="column-33">
+        </div>
+        <div class="column-33">
+            <div class="margen exp">
                 <h4 id="competencias"><strong>Competencias Personales</strong></h4>
-                <img src="img/foto2.png" alt="" width="90%">
+                <img src="img/foto2.png" alt="" width="90%" class="foto">
             </div>
+        </div>
+        <div class="column-33">
+            <div class="margen exp">
+                <h4 id="software"><strong>Software</strong></h4>
+                <img src="img/foto3.png" alt="" width="90%" class="foto">
+            </div>
+        </div>
     </div>
+    <br><br><br>
     <div class="row">
         <div class="column-50">
             <a class="boton-descarga" href="img/Curriculum SMX1 Xavier Moreno.pdf" download>Descargar Curriculum en PDF</a>
@@ -84,6 +102,7 @@
             <a class="boton-descarga" href="view/en.html">Traducir Curriculum a Ingles</a>
         </div>
     </div>
+    <br><br>
 </body>
 <footer>
     <div class="row">
